@@ -47,7 +47,8 @@ This project was built to strengthen front-end development skills, including:
    ```
 2. Navigate into project directory:
 
-   ```cd film finder
+   ```
+   cd film finder
 
    ```
 
@@ -65,8 +66,10 @@ This project was built to strengthen front-end development skills, including:
 
 ## Screenshots
 
-![Home Page before Search](Images/FILMFINDERUI.png)
-![Home Page after Search](Images/FILMFINDERUI2.png)
+<p float="left">
+  <img src="Images/FILMFINDERUI.png" width="300"/>
+  <img src="Images/FILMFINDERUI2.png" width="300"/>
+</p>
 
 ## License
 
