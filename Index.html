@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=search"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="textblock">
+        <h1>Film Finder</h1>
+        <h2>Find your Movie</h2>
+      </div>
+
+      <form class="movieForm">
+        <span class="material-symbols-outlined">search</span>
+        <input
+          type="text"
+          class="movieInput"
+          placeholder="Type the Film Name..."
+        />
+        <button type="submit">Find Film</button>
+      </form>
+    </div>
+    <div class="movieCard" style="display: none">
+      <img class="moviePoster" alt="Movie Poster" />
+      <div class="movieResults">
+        <h3 class="movieTitle">Title</h3>
+        <p class="movieYear">Year</p>
+        <p class="movieRating">Rating:</p>
+        <p class="genre">Genre:</p>
+        <p class="plotDescription">Plot:</p>
+      </div>
+    </div>
+    <div class="defaultCard">
+      <h3 class="defaultText">Search For a Movie to get Started!</h3>
+    </div>
+
+    <div class="nowPlaying">
+      <h3>Now Playing...</h3>
+      <img
+        src="images/Popcorn.png"
+        alt="Popcorn"
+        style="
+          width: 50px;
+          height: 50px;
+          right: 40%;
+          display: flex;
+          align-items: center;
+          flex-direction: row;
+          justify-content: space-between;
+        "
+      />
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,173 @@
+h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+  letter-spacing: -2%;
+  margin: 0;
+  text-shadow: 0px 4px 4px 0px #000000;
+}
+body {
+  overflow-y: hidden;
+  overflow-x: hidden;
+  background-color: #dfffe0;
+}
+
+h2 {
+  margin-top: 0.3rem;
+  font-family: "Inter", sans-serif;
+  font-weight: medium;
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 18px;
+  text-shadow: 0px 4px 4px 0px #000000;
+  margin-bottom: 0.5rem;
+  text-indent: 2rem;
+  gap: 0.5rem;
+  margin-bottom: 0.8rem;
+}
+
+.movieForm {
+  margin-top: 20px;
+  margin: -9.5rem auto;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 7px;
+  margin: 0 auto;
+  border-radius: 20px;
+  gap: 0;
+  max-width: 350px;
+  background-color: #ffffff;
+}
+.movieForm input {
+  border: none;
+  font-size: 16px;
+  color: #333333;
+  padding: 0.5rem;
+  outline: none;
+  width: 200px;
+  flex: 1;
+  border-radius: 0 0.5rem 0.5rem 0;
+  background: transparent;
+  margin-right: 0;
+  min-width: 0;
+}
+
+.movieForm button {
+  background-color: #2f9e44;
+  font-family: "Inter", sans-serif;
+  font-weight: medium;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 1em;
+  cursor: pointer;
+  font-size: 14px;
+}
+.movieForm button:hover {
+  background-color: #2a8b3e;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  margin: 10rem auto;
+  padding: 1rem;
+}
+.textBlock {
+  max-width: 400px;
+}
+.defaultCard {
+  display: flex;
+  background-color: #fffdd0;
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 6px;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  max-width: 500px;
+  margin: -9.5rem auto;
+
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.defaultText {
+  font-family: "Inter", sans-serif;
+  font-weight: medium;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 16px;
+  margin-top: 0.5rem;
+  text-align: center;
+}
+.movieCard {
+  background-color: #fffdd0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 6px;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  max-width: 500px;
+  margin: -10rem auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+.movieTitle {
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  margin: 0;
+}
+.moviePoster {
+  width: 150px;
+  height: 225px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+.movieYear {
+  font-family: "Inter", sans-serif;
+  font-weight: medium;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 16px;
+}
+.movieRating {
+  font-family: "Inter", sans-serif;
+  font-weight: medium;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 16px;
+}
+.genre {
+  font-family: "Inter", sans-serif;
+  font-weight: medium;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 16px;
+}
+
+.plotDescription {
+  font-family: "Inter", sans-serif;
+  font-weight: medium;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 16px;
+  margin-top: 0.5rem;
+}
+
+.nowPlaying {
+  font-family: "Inter", sans-serif;
+  font-weight: medium;
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  margin: 10rem auto;
+  padding: 1rem;
+}
