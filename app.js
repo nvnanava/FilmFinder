@@ -4,7 +4,7 @@ const movieForm = document.querySelector(".movieForm"); //capture the form
 const movieInput = document.querySelector(".movieInput"); //capture the input
 const movieCards = document.querySelector(".movieCard"); //capture the movie card
 const movieDefault = document.querySelector(".defaultCard"); //capture the default movie card
-const apiKey = "YOURKEYHERE"; //Replace with your own OBMDb API key here
+const apiKey = "YOURAPIkeyHERE"; //Replace with your own OBMDb API key here
 
 movieForm.addEventListener("submit", async (event) => {
   event.preventDefault(); //prevent the default form submission
